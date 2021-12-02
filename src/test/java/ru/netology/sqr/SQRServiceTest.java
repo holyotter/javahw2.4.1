@@ -17,7 +17,7 @@ class SQRServiceTest {
     }
 
     @Test
-    public void shouldSqrValueMinOneInRange() {
+    public void shouldSqrValueOneInRange() {
         SQRService service = new SQRService();
         int min = 450;
         int max = 500;
@@ -27,7 +27,7 @@ class SQRServiceTest {
     }
 
     @Test
-    public void shouldSqrValueMinNotInRange() {
+    public void shouldSqrValueNotInRange() {
         SQRService service = new SQRService();
         int min = 790;
         int max = 840;
@@ -37,7 +37,7 @@ class SQRServiceTest {
     }
 
     @Test
-    public void shouldSqrValueMinFiveInRange() {
+    public void shouldSqrValueFiveInRange() {
         SQRService service = new SQRService();
         int min = 100;
         int max = 200;
